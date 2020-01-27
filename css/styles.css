@@ -1,0 +1,22 @@
+@keyframes spinnerRotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner{
+    
+    animation: spinnerRotation 10s linear infinite;
+}
+
+
+
+.imagen {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    object-fit: scale-down;
+}
